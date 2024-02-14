@@ -67,6 +67,10 @@ def game_intro():
         TextSurf, TextRect = text_objects(language['game'], large_text)
         TextRect.center = ((dis_width / 2), (dis_height / 2))
         dis.blit(TextSurf, TextRect)
+        second_text = pygame.font.SysFont(None, 50)
+        TextSurf, TextRect = text_objects(language['author'], second_text)
+        TextRect.center = ((dis_width / 3), (dis_height / 3))
+        dis.blit(TextSurf, TextRect)
 
         draw_button(language['go'], 150, 450, 100, 50, green, bright_green, gameLoop)
         draw_button(language['quit'], 550, 450, 100, 50, red, bright_red, quit)

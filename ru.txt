@@ -8,5 +8,6 @@
     "game_over": "Игра окончена",
     "settings": "Настройки",
     "snaake_color": "Цвет змейки",
-    "language": "Язык"
+    "language": "Язык",
+    "author": "by Zondaxxx"
 }
